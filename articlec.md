@@ -119,6 +119,3 @@ code today and become part of the global community of Python developers!
 ___
 
 *Article content is generated using ChatGPT.*
-
-Lorem ipsum dolor sit amet
-
