@@ -5,7 +5,7 @@ straightforward syntax. It is a favorite among developers in diverse fields, fro
 to data science, due to its simplicity and the vast ecosystem of libraries and frameworks it
 supports.
 
-(picture)
+![python logo](https://www.python.org/static/img/python-logo.png)
 
 ## 1. Python's Key Features
 
@@ -22,7 +22,11 @@ become productive. As an interpreted language, Python allows you to run programs
 without the need to compile. This makes for a rapid feedback loop conducive to learning. For
 example, a simple print statement in Python looks like this:
 
+
+```
 print("Hello, Python!")
+```
+
 
 ### 1.2 Robust Standard Library
 
@@ -30,14 +34,20 @@ Python comes with a *vast standard library*, often referred to as its "batteries
 Whatever the task, there's likely a module in the standard library to help you get started. For
 instance, http for server-side code:
 
+```
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
+```
 
+* * *
+
+```
 def do_GET(self):
-self.send_response(200)
-self.end_headers()
-self.wfile.write(b'Hello, Python!')
+	self.send_response(200)
+	self.end_headers()
+	self.wfile.write(b'Hello, Python!')
+```
 
 ## 2. Python in Various Domains
 
@@ -53,6 +63,7 @@ areas. Here's a look at some of them:
 Using Python for data analysis is incredibly efficient due to libraries such as Pandas. Below is an
 example of how you can use Pandas to read a CSV file and summarize the data:
 
+```
 import pandas as pd
 
 # Load data
@@ -60,6 +71,7 @@ data = pd.read_csv('data.csv')
 
 # Display summary
 print(data.describe())
+```
 
 ## 3. Python's Impact and Community
 
@@ -70,19 +82,22 @@ conferences around the world, such as PyCon, and an abundance of resources avail
 
 Here are some great places to learn more about Python:
 
-Python.org - The official Python website.
-PyCon - A major conference for the Python community.
+- [Python.org](https://www.python.org) - The official Python website.
+- [PyCon](https://pycon.org) - A major conference for the Python community.
 
 ### 3.2 Utilizing Python Libraries
 
 Here is a table of some popular Python libraries and their uses:
 
-Library Use Case
-Django Web Development
-Pandas Data Analysis
-NumPy Numerical Computing
-Matplotlib Data Visualization
-Scikit-learn Machine Learning
+* * *
+
+| Library | Use Case |
+| --- | --- |
+| Django | Web Development |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Matplotlib | Data Visualization |
+| Scikit-learn | Machine Learning |
 
 ## 4. Conclusion
 
@@ -90,7 +105,7 @@ Python's broad applicability and ease of use have contributed to its status as a
 beginners and experts alike. Its syntax is accessible, making complex ideas straightforward to
 express, while its libraries make powerful functionality readily available.
 
-"Python is an experiment in how much freedom programmers need. Too much freedom and
+> "Python is an experiment in how much freedom programmers need. Too much freedom and
 nobody can read anyone else's code; too little and expressiveness is endangered." - Guido
 van Rossum
 
@@ -104,3 +119,4 @@ code today and become part of the global community of Python developers!
 ___
 
 *Article content is generated using ChatGPT.*
+
